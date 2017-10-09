@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/paddy"
+    tools:context="com.example.joker.adhd_focus.MainActivity">
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:textSize="16sp"
+        android:text="START"/>
+    <Button
+        android:id="@+id/bt_stop"
+        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:text="STOP"/>
+    <Button
+        android:id="@+id/bt_easy"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:text="简单"/>
+    <Button
+        android:id="@+id/bt_mid"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:text="中等"/>
+    <Button
+        android:id="@+id/bt_hard"
+        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:text="难"/>
+    <Button
+        android:id="@+id/bt_locust"
+        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:textSize="16sp"
+        android:background="@drawable/locust" />
+    <TextView
+        android:id = "@+id/tv_acc"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtStep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/steps" />
+
+    <!-- Username -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Username:" />
+
+        <EditText
+            android:id="@+id/edtUsername"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <!-- Date -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Date:" />
+
+        <EditText
+            android:id="@+id/edtDate"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:hint="20160101" />
+    </LinearLayout>
+
+    <!-- Activities option -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Activity Type:" />
+
+        <EditText
+            android:id="@+id/edtActType"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start" />
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtAcc"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtGyr"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtDis"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtHeartRate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtPed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtSkinTemp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtUV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtBandContact"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtCal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="" />
+
+</LinearLayout>
+

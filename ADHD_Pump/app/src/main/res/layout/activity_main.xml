@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/wall">
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/big_block" />
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/output" />
+            <ImageView
+                android:id="@+id/tv_bird"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/bird2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/small_block" />
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/top" />
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/small_block" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="2">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/left" />
+            <ImageView
+                android:id="@+id/tv_center"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/small_block" />
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/bottom" />
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/small_block" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/block_12" />
+            <ImageView
+                android:id="@+id/tv_drop"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/drop1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="right">
+        <Button
+            android:id="@+id/bt_start"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="START"/>
+        <Button
+            android:id="@+id/bt_stop"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="STOP"/>
+        <TextView
+            android:id="@+id/tv_percent"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:text="目标"
+            android:gravity="left|bottom"
+            android:textColor="#ffffff"
+            android:textSize="30dp"/>
+    </LinearLayout>
+</RelativeLayout>
